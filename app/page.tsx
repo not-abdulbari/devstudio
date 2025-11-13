@@ -129,7 +129,7 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <div className="flex items-center gap-2">
-                <div className="flex space-x-2">
+                <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
                   ))}
